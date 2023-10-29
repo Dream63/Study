@@ -8,11 +8,13 @@
 
 1. Я запустив першу програму:
 
-   from datetime import datetime
-   name = "Dmytro"
-   location = "Lviv"
+```python
+from datetime import datetime
+name = "Dmytro"
+location = "Lviv"
 
-   print(f"{name} start programming at {datetime.now()}. {location} is the best city!")
+print(f"{name} start programming at {datetime.now()}. {location} is the best city!")
+```
 
 Як результат вивело наступне:
 
@@ -28,7 +30,9 @@
 
 Програма порекомендована ChatGPT:
 
-    print("Hello World")
+```python
+print("Hello World")
+```
 
 ---
 
