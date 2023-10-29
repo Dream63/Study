@@ -16,19 +16,19 @@ location = "Lviv"
 print(f"{name} start programming at {datetime.now()}. {location} is the best city!")
 ```
 
-Як результат вивело наступне:
+1. Як результат вивело наступне:
 
 > Dmytro start programming at 2023-10-29 13:52:45.828597. Lviv is the best city!
 
-Така ж програма в Python notebook. Результат:
+1. Така ж програма в Python notebook. Результат:
 
 > Dmytro start programming at 2023-10-29 13:55:15.972863. Lviv is the best city!
 
-Натиснуви Run All:
+1. Натиснуви Run All:
 
 > Dmytro start programming at 2023-10-29 13:56:15.984683. Lviv is the best city!
 
-Програма порекомендована ChatGPT:
+1. Програма порекомендована ChatGPT:
 
 ```python
 print("Hello World")
