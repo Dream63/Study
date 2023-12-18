@@ -8,7 +8,7 @@
 
 1. Я запустив першу програму:
 
-```python
+```py
 from datetime import datetime
 name = "Dmytro"
 location = "Lviv"
