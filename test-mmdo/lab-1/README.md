@@ -79,3 +79,50 @@ r = requests.post('https://httpbin.org/post', data={'key': 'value'})
 ```
 
 В файлах Pipfile та Pipfile.lock знаходиться інформація про середовище.
+
+Запуск програми з терміналу:
+
+![test.py](/test-mmdo/lab-1/screenshots/testpy.png 'test.py')
+
+Встановлення бібліотеки з PyPI: `pip install xurl`
+
+Тест команди з даної бібліотеки:
+
+![xurl -h](/test-mmdo/lab-1/screenshots/xurl.png 'xurl')
+
+Зміна інтерпритатора Python:
+
+![interpretter](/test-mmdo/lab-1/screenshots/interpretter.png 'interpretter')
+
+Запуск програми:
+
+![Запуск програми](/test-mmdo/lab-1/screenshots/123.png '123')
+
+Використання .env змінної:
+
+![hello](/test-mmdo/lab-1/screenshots/hello.png 'hello')
+
+Використання .env змінної без середовища:
+
+![enverror](/test-mmdo/lab-1/screenshots/enverror.png 'enverror')
+
+Вебсайт chatgpt:
+
+![website](/test-mmdo/lab-1/screenshots/website.png 'website')
+
+Код вебсайту:
+
+```py
+from flask import Flask
+
+app = Flask(__name__)
+
+
+@app.route('/')
+def home():
+    return 'Привіт, це мій перший веб-сайт на Flask!'
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
+```
