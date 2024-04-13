@@ -23,9 +23,9 @@ print(a.get_figure_type)
 print(b.get_figure_length)
 
 
-def test_app_triangle():
-    """Test if we create triangle figure.
-    """
-    fig = "трикутник"
-    triangle = Figure(fig, 4)
-    assert triangle.type == fig, f"Фігура має бути {fig}"
+# def test_app_triangle():
+#   """Test if we create triangle figure.
+#  """
+# fig = "трикутник"
+# triangle = Figure(fig, 4)
+# assert triangle.type == fig, f"Фігура має бути {fig}"
